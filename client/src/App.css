@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('image.jpg') center/cover fixed no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbar-left {
+  font-size: 24px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.navbar-right button {
+  padding: 6px 10px;
+  cursor: pointer;
+  background-color: rgb(249, 246, 246);
+  color: #2c3e50;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.navbar-right button:hover {
+  background-color: #0c0c0c;
+  color: #d9dfe6;
+}
+
+.app-container {
+  background: rgba(109, 108, 109, 0.7);
+  color: rgb(13, 11, 11);
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 560px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the form within the .app-container */
+  background-color: rgb(246, 246, 246);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding-left: 20px; /* Add padding to the left */
+  padding-right: 20px; /* Add padding to the right */
+}
+
+
+
+
+
+label {
+  margin-bottom: 8px;
+  text-align: left; /* Align label text to the left */
+}
+
+input {
+  margin-bottom: 16px;
+  padding: 10px;
+  width: calc(100% - 20px); /* Subtract 20px (left and right padding combined) from the width */
+  box-sizing: border-box; /* Include padding in the total width */
+}
+
+button {
+  padding: 12px;
+  cursor: pointer;
+  background-color: rgb(104, 33, 33);
+  color: rgb(246, 244, 246);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #305432;
+}
+
+
+/* Additional styles for table if needed */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: black; /* Set the text color of table headers to black */
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: white; /* Set the text color of table data to white */
+}
